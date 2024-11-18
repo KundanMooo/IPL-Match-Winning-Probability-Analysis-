@@ -8,14 +8,7 @@ This project predicts the winning probability during the second innings of IPL m
    - Click on **File > Open Folder**.
    - Navigate to the folder containing the `app.py` file and select it.
 
-2. **Set Up the Environment** (if required):
-   - Make sure you have **Python** installed on your system.
-   - Install Streamlit by running the following command in the terminal:
-     ```bash
-     pip install streamlit
-     ```
-
-3. **Run the Streamlit App**:
+2. **Run the Streamlit App**:
    - Open the terminal in VS Code by pressing `Ctrl + `` ` (backtick).
    - Ensure you are in the folder containing `app.py`.
    - Run the following command:
@@ -23,7 +16,7 @@ This project predicts the winning probability during the second innings of IPL m
      streamlit run app.py
      ```
 
-4. **Access the App**:
+3. **Access the App**:
    - After running the command, a URL will appear in the terminal (e.g., `http://localhost:8501`).
    - Open this URL in your web browser to view the app.
 
