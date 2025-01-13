@@ -1,23 +1,32 @@
-# IPL-Match-Winning-Probability-Analysis-
-This project uses machine learning models to predict the winning probability during the second innings of IPL matches (2008–2024). Each data point represents a ball in the second innings, with predictions based on key match features.
+# IPL Match Winning Probability Predictor
 
-# Instructions to Run the Streamlit App
+A machine learning application that predicts the winning probability of IPL matches during the second innings (2008-2024). Built with Streamlit for an interactive user experience.
 
-1. **Open the Folder in VS Code**:
-   - Open **VS Code** on your system.
-   - Click on **File > Open Folder**.
-   - Navigate to the folder containing the `app.py` file and select it.
+## Quick Start
 
-2. **Run the Streamlit App**:
-   - Open the terminal in VS Code by pressing `Ctrl + `` ` (backtick).
-   - Ensure you are in the folder containing `app.py`.
-   - Run the following command:
-     ```bash
-     streamlit run app.py
-     ```
+```bash
+# Install requirements
+pip install -r requirements.txt
 
-3. **Access the App**:
-   - After running the command, a URL will appear in the terminal (e.g., `http://localhost:8501`).
-   - Open this URL in your web browser to view the app.
+# Run the app
+streamlit run app.py
+```
 
-Enjoy using the Streamlit app!
+## Features
+- Real-time probability predictions
+- Ball-by-ball analysis
+- Interactive visualization
+- Historical match data (2008-2024)
+
+## Requirements
+- Python 3.7+
+- Streamlit
+- Pandas
+- Scikit-learn
+- Plotly
+
+## Contributing
+Feel free to open issues and submit pull requests.
+
+## License
+MIT License
